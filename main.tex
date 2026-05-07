@@ -1,7 +1,10 @@
 \documentclass[a4paper]{article}
 \usepackage{pdfpages}
+\usepackage[en-US]{datetime2}
 
 \begin{document}
+Compiled: \DTMnow
+\clearpage
 \includepdf[pages=-]{Example_Good/Example_Good_report.pdf}
 \includepdf[pages=-]{Ivan_Ivanov/Ivan_Ivanov_report.pdf}
 \end{document}
